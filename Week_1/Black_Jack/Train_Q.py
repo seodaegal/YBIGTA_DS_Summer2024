@@ -26,19 +26,12 @@ def choose_action(state, epsilon):
 for episode in tqdm(range(num_episodes)):
     state, info = env.reset()
     done = False
-
+    ###여기부터 작성해주세요!
     while not done:
         action = choose_action(state, epsilon)
         next_state, reward, terminated, truncated, info = env.step(action)
-        done = terminated or truncated
 
-        best_next_action = np.argmax(q_table[next_state])
-        td_target = reward + gamma * q_table[next_state][best_next_action]
-        td_error = td_target - q_table[state][action]
-        q_table[state][action] += alpha * td_error
-        
-        state = next_state
-
+    #여기까지 작성해주세요!
 # Q 테이블 저장
 with open('q_table_agent1.pkl', 'wb') as f:
     pickle.dump(dict(q_table), f)
