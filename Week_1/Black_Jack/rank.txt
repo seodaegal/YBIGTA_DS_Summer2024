@@ -1,0 +1,23 @@
+[Ranking]
+
+Robocar_Poli.pkl: 433.60 average wins
+Kazuma_Kiryu.pkl: 427.50 average wins
+sleepybot.pkl: 424.80 average wins
+potato_daegal.pkl: 422.90 average wins
+tayo_the_little_bus.pkl: 419.50 average wins
+happylife.pkl: 417.60 average wins
+PICASSOL.pkl: 408.70 average wins
+jungyang.pkl: 407.60 average wins
+pizza&flat.pkl: 402.30 average wins
+jdsj.pkl: 399.30 average wins
+happycat.pkl: 396.60 average wins
+catnapping_stray_cat.pkl: 394.90 average wins
+xbranxabxi.pkl: 393.20 average wins
+TreeCollector.pkl: 389.00 average wins
+nalbalpgoga.pkl: 388.80 average wins
+longforyou23.pkl: 388.10 average wins
+DannyBond.pkl: 387.30 average wins
+gangstar.pkl: 380.20 average wins
+
+1등 : 강민정
+뒤에서 1등 : 정경윤
