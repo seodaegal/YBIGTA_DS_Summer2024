@@ -20,4 +20,3 @@ DannyBond.pkl: 387.30 average wins
 gangstar.pkl: 380.20 average wins
 
 1등 : 강민정
-뒤에서 1등 : 정경윤
