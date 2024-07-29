@@ -3,7 +3,7 @@ import gymnasium as gym
 import torch
 from itertools import count
 from tqdm import tqdm
-from assign import DQNAgent, device
+from assets import DQNAgent, device
 
 def main(args):
     env = gym.make('LunarLander-v2', render_mode='human')
