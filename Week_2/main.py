@@ -78,6 +78,6 @@ if __name__ == '__main__':
     parser.add_argument('--batch_size', type=int, default=64, help='Batch size for training')
     parser.add_argument('--tau', type=float, default=0.005, help='Soft update coefficient for target network')
     parser.add_argument('--target_update', type=int, default=10, help='Number of episodes between target network updates')
-    parser.add_argument('--save_path', type=str, default='dqn_lunarlander.pth', help='Path to save the trained model')
+    parser.add_argument('--save_path', type=str, default='potato_daegal.pth', help='Path to save the trained model')
     args = parser.parse_args()
     main(args)
