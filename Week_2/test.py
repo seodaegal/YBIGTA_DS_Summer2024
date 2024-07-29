@@ -1,7 +1,7 @@
 import argparse
 import gymnasium as gym
 import torch
-from assign import DQN, device
+from assets import DQN, device
 
 def test(args):
     env = gym.make('LunarLander-v2', render_mode='human')
